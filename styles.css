@@ -36,3 +36,22 @@ input {
 img {
 	max-width: 300px;
 }
+
+button{
+	height:30px;
+	border-radius:20px;
+	background-color:yellow;
+	border:none;
+	box-shadow: 2px 2px 2px gray;
+}
+
+img{
+	border-radius:50%;
+}
+#ducky-img{
+	height:35vh;
+	width:35vh;
+}
+input{
+	display:inline-block
+}
