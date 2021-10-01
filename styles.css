@@ -55,3 +55,19 @@ img{
 input{
 	display:inline-block
 }
+#neighborhood-main{
+	display:grid;
+	grid-template-areas:
+	"welcome welcome"
+	"picture facts";
+}
+#hood-welcome{
+	grid-area:welcome;
+}
+#georgetown-pic{
+	grid-area:picture;
+	height:45vh;
+}
+#georgetown-facts{
+	grid-area:facts;
+}
